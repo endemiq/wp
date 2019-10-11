@@ -10,4 +10,3 @@ add_filter('acf/settings/load_json', function ($paths) {
   $paths[] = get_stylesheet_directory() . '/acf';
   return $paths;
 });
- 

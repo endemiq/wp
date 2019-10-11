@@ -37,3 +37,4 @@ add_filter('graphql_resolve_field', function (
     }
     return $result;
 }, 10, 9 );
+
