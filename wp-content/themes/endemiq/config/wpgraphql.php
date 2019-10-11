@@ -1,5 +1,6 @@
 <?php
 
+/*
 add_filter('graphql_resolve_field', function (
   $result,
   $source,
