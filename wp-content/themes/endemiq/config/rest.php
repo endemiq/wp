@@ -1,6 +1,6 @@
 <?php
 
-add_filter( 'rest_authentication_errors', function ($access) {
+add_filter('rest_authentication_errors', function ($access) {
   return new WP_Error(
     'rest_disabled',
     __('The WordPress REST API has been disabled.'),

@@ -22,6 +22,7 @@ add_filter('graphql_resolve_field', function (
       || $type_name === 'Node'
       || $type_name === 'Page'
       || $type_name === 'Plugin'
+      || $type_name === 'Post'
       || $type_name === 'ReadingSettings'
       || $type_name === 'Revision'
       || $type_name === 'Settings'
@@ -30,7 +31,6 @@ add_filter('graphql_resolve_field', function (
       || $type_name === 'User'
       || $type_name === 'UserRole'
       || $type_name === 'WritingSettings'
-      || $type_name === 'Post'
     ) {
         $result = 'You are not allowed to access this data';
     }
